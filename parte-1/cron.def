@@ -1,0 +1,5 @@
+# Arquivo: cron.def
+
+# Configuração para executar o script estado_voos.sh de hora em hora
+# Minuto  Hora  Dia_Mês  Mês  Dia_Semana  Comando
+  30        *     *        *    *           /home/a105054/parte-1/estado_voos.sh
