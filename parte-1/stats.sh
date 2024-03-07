@@ -34,7 +34,6 @@ if [ "$1" == "passageiros" ]; then
     > stats.txt
 
     nome_passageiro=$(grep ":" passageiros.txt | cut -d ':' -f3)
-    #echo "$nome_passageiro"
     
     readarray -t nomes <<< "$nome_passageiro"
 
